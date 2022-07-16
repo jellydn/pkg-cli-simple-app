@@ -1,6 +1,6 @@
-# Welcome to typescript-starter 👋
+# Welcome to pkg-cli-simple-app 👋
 
-[![Version](https://img.shields.io/npm/v/typescript-starter.svg)](https://www.npmjs.com/package/typescript-starter)
+[![Version](https://img.shields.io/npm/v/pkg-cli-simple-app.svg)](https://www.npmjs.com/package/pkg-cli-simple-app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 [![Twitter: jellydn](https://img.shields.io/twitter/follow/jellydn.svg?style=social)](https://twitter.com/jellydn)
 

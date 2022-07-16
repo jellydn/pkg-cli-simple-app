@@ -1,8 +1,8 @@
 {
-  "name": "typescript-starter",
+  "name": "pkg-cli-simple-app",
   "version": "0.0.1",
   "description": "Typescript starter project",
-  "repository": "https://github.com/jellydn/typescript-starter",
+  "repository": "https://github.com/jellydn/pkg-cli-simple-app",
   "license": "MIT",
   "author": "Huynh Duc Dung",
   "exports": {
