@@ -1,0 +1,38 @@
+name: Build Node binaries for macOS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  macos-x64:
+    runs-on: macos-11.0
+
+    strategy:
+      fail-fast: false
+      matrix:
+        target-node: [16, 18]
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest
+
+      - name: Use Node.js 14
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+
+      - run: yarn install
+
+      - run: yarn build
+
+      - run: yarn pkg
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: node${{ matrix.target-node }}-macos-x64
+          path: dist/*
