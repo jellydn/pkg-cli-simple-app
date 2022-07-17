@@ -6,6 +6,11 @@
 
 > Typescript starter project
 
+[![ITMan - Tip #22 - Package your Node.js project into an executable [Vietnamese]](https://i.ytimg.com/vi/WdjdtqqDIkc/hqdefault.jpg)](https://www.youtube.com/watch?v=WdjdtqqDIkc)
+
+The binary file will be published at action artifacts. E.g:
+https://github.com/jellydn/pkg-cli-simple-app/actions/runs/2683655930
+
 ## Install
 
 ```sh
