@@ -11,6 +11,12 @@
 The binary file will be published at action artifacts. E.g:
 https://github.com/jellydn/pkg-cli-simple-app/actions/runs/2683655930
 
+## Features
+
+- 📦️ [pkg](https://github.com/vercel/pkg) Package your Node.js project into an executable.
+- 📦 🍣 [pkgroll](https://github.com/privatenumber/pkgroll) - Zero-config JS bundler for ESM, CommonJS, and .d.ts outputs
+- 🎨 [vitest](https://vitest.dev/) - Blazing Fast Unit Test Framework
+
 ## Install
 
 ```sh
@@ -21,6 +27,12 @@ yarn install
 
 ```sh
 yarn build
+```
+
+## Package into an executable
+
+```sh
+yarn pkg
 ```
 
 ## Example
