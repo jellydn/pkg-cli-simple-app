@@ -3703,10 +3703,10 @@ pkg@5.8.1:
     resolve "^1.22.0"
     stream-meter "^1.0.4"
 
-pkgroll@1.11.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-1.11.0.tgz#3ab00d3d6ff43146c478910e4e4f911df8c13c59"
-  integrity sha512-E+RJuiqun1QbsGzkxwRV1xmdwsmDQ6uGOoLagLwS4b1YPFNAPESDqz5QQx/MxkZCinl07Tt3GXzMJQT+helsww==
+pkgroll@1.11.1:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-1.11.1.tgz#45b6043ec54a13ebe1fcce2f831adc6e03bb7ae5"
+  integrity sha512-jRe/BMDNQNzlpI93FC7OySGwYUI/2f9S+ukGwF6T5TZynkm2AtxyX4V19uc7rj7C2TH3UeZjP3FMlC3XLJHKUQ==
   dependencies:
     "@rollup/plugin-alias" "^4.0.4"
     "@rollup/plugin-commonjs" "^24.1.0"
