@@ -51,10 +51,10 @@
     "sort-package-json": "2.6.0",
     "ts-jest": "29.1.1",
     "tsd": "0.30.0",
-    "tsx": "4.6.2",
+    "tsx": "4.7.0",
     "typescript": "5.3.3",
     "vite": "5.0.10",
-    "vitest": "1.0.4",
+    "vitest": "1.1.0",
     "xo": "0.56.0"
   },
   "nano-staged": {
