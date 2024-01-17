@@ -1,0 +1,26 @@
+const fs = require('fs');
+const yaml = require('yaml');
+
+// Read the contents of the existing ".github/workflows/main.yml" file
+const filePath = '.github/workflows/main.yml';
+const fileContent = fs.readFileSync(filePath, 'utf8');
+
+// Parse the YAML content into an object
+const yamlObject = yaml.parse(fileContent);
+
+// Locate the `node-version` field in the object
+const jobs = yamlObject.jobs;
+const buildJob = jobs.build;
+const strategy = buildJob.strategy;
+const matrix = strategy.matrix;
+const include = matrix.include;
+const nodeVersion = include[0].node_version;
+
+// Update the value of the `node-version` field to ">=18"
+include[0].node_version = ">=18";
+
+// Convert the modified object back to YAML format
+const updatedYamlContent = yaml.stringify(yamlObject);
+
+// Write the updated YAML content back to the ".github/workflows/main.yml" file
+fs.writeFileSync(filePath, updatedYamlContent);
