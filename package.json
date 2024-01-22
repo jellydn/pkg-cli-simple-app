@@ -1,18 +1,16 @@
 {
+{
   "name": "pkg-cli-simple-app",
-  "version": "0.0.1",
-  "description": "Typescript starter project",
-  "repository": "https://github.com/jellydn/pkg-cli-simple-app",
-  "license": "MIT",
-  "author": "Huynh Duc Dung",
-  "exports": {
-    "require": "./dist/index.js",
-    "import": "./dist/index.mjs",
-    "types": "./dist/index.d.ts"
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "dependencies": {
+    "@commitlint/cli": "^18.4.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
   "bin": "./dist/cli.js",
   "files": [
     "dist"
