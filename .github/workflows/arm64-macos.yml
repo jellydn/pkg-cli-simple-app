@@ -32,7 +32,7 @@ jobs:
 
       - run: yarn pkg
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: node${{ matrix.target-node }}-macos-x64
           path: dist/*
