@@ -54,7 +54,7 @@
     "tsx": "4.16.2",
     "typescript": "5.5.3",
     "vite": "5.3.3",
-    "vitest": "1.6.0",
+    "vitest": "2.0.3",
     "xo": "0.58.0"
   },
   "nano-staged": {
