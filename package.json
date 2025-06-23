@@ -47,7 +47,7 @@
     "nano-staged": "0.8.0",
     "pkg": "5.8.1",
     "pkgroll": "2.13.1",
-    "prettier": "3.5.3",
+    "prettier": "3.6.0",
     "sort-package-json": "2.15.1",
     "ts-jest": "29.4.0",
     "tsd": "0.32.0",
