@@ -48,7 +48,7 @@
     "pkg": "5.8.1",
     "pkgroll": "2.27.0",
     "prettier": "3.8.3",
-    "sort-package-json": "2.15.1",
+    "sort-package-json": "3.7.0",
     "ts-jest": "29.4.9",
     "tsd": "0.33.0",
     "tsx": "4.21.0",
