@@ -44,7 +44,7 @@
     "@trivago/prettier-plugin-sort-imports": "4.3.0",
     "clean-pkg-json": "1.4.2",
     "husky": "9.1.7",
-    "nano-staged": "0.9.0",
+    "nano-staged": "1.0.2",
     "pkg": "5.8.1",
     "pkgroll": "2.27.1",
     "prettier": "3.9.5",
